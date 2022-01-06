@@ -11,9 +11,9 @@ _LOGGER = logging.getLogger(__name__)
 class Solis:
     """Solis PV Converter integration API."""
 
-    POWER_REGEX = re.compile(r'var webdata_now_p = "([0-9]+(\.[0-9]+)?)"')
-    TODAY_REGEX = re.compile(r'var webdata_today_e = "([0-9]+(\.[0-9]+)?)"')
-    TOTAL_REGEX = re.compile(r'var webdata_total_e = "([0-9]+(\.[0-9]+)?)"')
+    POWER_REGEX = re.compile(r'var webdata_now_p = "(\d+(\.\d+)*)"')
+    TODAY_REGEX = re.compile(r'var webdata_today_e = "(\d+(\.\d+)*)"')
+    TOTAL_REGEX = re.compile(r'var webdata_total_e = "(\d+(\.\d+)*)"')
 
     def __init__(self, url, username, password):
         """Initialize Solis PV Converter integration."""
