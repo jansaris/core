@@ -283,7 +283,7 @@ FLOWS = [
     "sms",
     "solaredge",
     "solarlog",
-    "solis_converter",
+    "solis_pv_inverter",
     "soma",
     "somfy",
     "somfy_mylink",

@@ -1,23 +1,16 @@
-"""The Solis PV Converter integration."""
+"""The Solis PV Inverter integration."""
 from __future__ import annotations
 
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant
 
-from .const import DOMAIN
-
-# TODO List the platforms that you want to support.
-# For your initial PR, limit it to 1 platform.
-PLATFORMS: list[str] = ["light"]
+from .const import DOMAIN, PLATFORMS
 
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
-    """Set up Solis PV Converter from a config entry."""
-    # TODO Store an API object for your platforms to access
-    # hass.data[DOMAIN][entry.entry_id] = MyApi(...)
+    """Set up Solis PV Inverter from a config entry."""
 
     hass.config_entries.async_setup_platforms(entry, PLATFORMS)
-
     return True
 
 

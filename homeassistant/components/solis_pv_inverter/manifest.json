@@ -1,8 +1,8 @@
 {
-  "domain": "solis_converter",
-  "name": "Solis PV Converter",
+  "domain": "solis_pv_inverter",
+  "name": "Solis PV Inverter",
   "config_flow": true,
-  "documentation": "https://www.home-assistant.io/integrations/solis_converter",
+  "documentation": "https://www.home-assistant.io/integrations/solis_pv_inverter",
   "requirements": [],
   "ssdp": [],
   "zeroconf": [],
