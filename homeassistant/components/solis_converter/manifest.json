@@ -1,0 +1,15 @@
+{
+  "domain": "solis_converter",
+  "name": "Solis PV Converter",
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/solis_converter",
+  "requirements": [],
+  "ssdp": [],
+  "zeroconf": [],
+  "homekit": {},
+  "dependencies": [],
+  "codeowners": [
+    "@jansaris"
+  ],
+  "iot_class": "local_polling"
+}
