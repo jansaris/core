@@ -7,7 +7,9 @@
   "ssdp": [],
   "zeroconf": [],
   "homekit": {},
-  "dependencies": [],
+  "dependencies": [
+    "http"
+  ],
   "codeowners": [
     "@jansaris"
   ],
